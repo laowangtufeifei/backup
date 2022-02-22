@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@font-face {
+  font-display: fallback;
+  font-family: "SourceCodeRoman-Medium";
+  src: url("./fonts/SourceCodeVariable-Roman.otf") format("opentype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-display: fallback;
+  font-family: "Arial-Black";
+  src: url("./fonts/ariblk.ttf") format("truetype");
+}
+
+.content {
+  width: 594px;
+  height: 843px;
+  margin: 0 auto;
+  background: url(./img/bg@3x.jpg) no-repeat 0 0 / cover;
+}
+
+.content .logo {
+  display: block;
+  margin: 130px auto 32px auto;
+}
+
+.content .detail {
+  box-sizing: border-box;
+  width: 498px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding-left: 15px;
+  padding-top: 7px;
+  padding-bottom: 8px;
+}
+
+.content .say-hai {
+  font-family: "Arial-Black";
+  font-size: 24px;
+  margin-bottom: 17px;
+}
+
+.content .desc {
+  font-family: "SourceCodeRoman-Medium";
+  font-size: 14px;
+  line-height: 28.9px;
+  margin-bottom: 23px;
+}
+
+.content .code {
+  font-family: Arial-Black;
+  font-size: 34px;
+  line-height: 33px;
+  height: 33px;
+  text-align: center;
+  width: 237px;
+  height: 58px;
+  text-align: center;
+  line-height: 58px;
+  background-color: #72f596;
+  margin: 0 auto 64px auto;
+  letter-spacing: 10px;
+  text-indent: 10px;
+}
+
+.content .tip {
+  font-family: SourceCodeRoman-Medium;
+  font-size: 14px;
+  line-height: 29px;
+  margin-bottom: 28px;
+}
+
+.content .reply {
+  font-family: SourceCodeRoman-Medium;
+  text-align: center;
+  font-size: 10px;
+  transform: scale(calc(10 / 12));
+  line-height: 28.9px;
+}
+
+.content .get-in-touch {
+  text-align: center;
+  line-height: 30px;
+  margin-top: 20px;
+  font-size: 18px;
+  font-family: SourceCodeVariable-Roman;
+  margin-bottom: 5px;
+}
+
+.content .site {
+  font-family: SourceCodeRoman-Medium;
+  line-height: 30px;
+  text-align: center;
+  margin-bottom: 40px;
+  display: block;
+  text-decoration: none;
+  color: #231f20;
+}
+
+.content .logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content .logo-container a + a {
+  margin-left: 36px;
+}
